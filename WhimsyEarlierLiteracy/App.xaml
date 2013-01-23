@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="WhimsyEarlierLiteracy.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhimsyEarlierLiteracy" xmlns:System="using:System">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <local:TextToGeometryConverter x:Key="TextToGeometryConverter" />
+            <x:String x:Key="DefaultFontFamily">
+                Assets/Trace Font.ttf#Trace Font for Kids
+            </x:String>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
